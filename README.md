@@ -9,7 +9,7 @@ This repository demonstrates how to implement JWT (JSON Web Token) authenticatio
 
 * Clone the repository:
 ```sh
-git clone https://github.com/your-username/jwt-auth-django.git
+git@github.com:suman154/JWT-Authentication.git
 cd JWT
 ```
 
