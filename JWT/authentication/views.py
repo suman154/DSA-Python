@@ -1,13 +1,13 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 
 
 # Create your views here.
 
 class WelcomeView(APIView):
     # Restrict access to authenticated users only
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,) #AllowAny
 
     def get(self, request):
         # Response content
